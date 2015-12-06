@@ -1,0 +1,75 @@
+* { 
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html, body, p { 
+	margin: 0;
+	padding: 0;
+}
+
+body { 
+	background: #fff;
+	font: 100%/1.5 &quot;Whitney A&quot;, &quot;Whitney B&quot;, Helvetica, sans-serif;
+	-webkit-text-size-adjust: 100%;
+	color: #333;
+}
+
+a { 
+	color: #333;
+	text-decoration: none;
+	outline: 0;
+}
+
+a:hover, a:focus { 
+	color: #808080;
+}
+
+p { 
+	margin-bottom: 1em;
+}
+
+.btn { 
+	display: inline-block;
+	padding: 19px 0;
+	background-color: white;
+	width: 178px;
+	display: block;
+	border-radius: 5px;
+	margin: 35px auto;
+	color: #363945;
+	font-family: &quot;Whitney&quot;;
+	text-align: center;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 17px;
+	border: 1px solid #efefef;
+	position: relative;
+	bottom: 0px;
+	transition: all .05s;
+}
+
+.btn:hover, .btn:focus { 
+	border-bottom: 3px solid #efefef;
+	bottom: 2px;
+	transition: all .05s;
+}
+
+.btn.disabled { 
+	background: #eee;
+	color: #808080;
+}
+
+.text-btn { 
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'icons';
+	src: url(&quot;../fonts/icons.eot&quot;);
+	src: url(&quot;../fonts/icons.eot?#iefix&quot;) format(&quot;embedded-opentype&quot;), url(&quot;../fonts/icons.woff&quot;) format(&quot;woff&quot;), url(&quot;../fonts/icons.ttf&quot;) format(&quot;truetype&quot;), url(&quot;../fonts/icons.svg#icons&quot;) format(&quot;svg&quot;);
+	font-weight: normal;
+	font-style: normal;
+}
+

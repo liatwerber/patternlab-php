@@ -1,0 +1,52 @@
+/*------------------------------------*\
+    $BUTTONS
+\*------------------------------------*/
+.btn {
+	display: inline-block;
+  padding: 19px 0;
+  background-color: white;
+  width: 178px;
+  border-radius: 5px;
+  margin: 35px auto;
+  color: $gray6;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 17px;
+  border: 1px solid #efefef;
+  position: relative;
+  bottom: 0px;
+  transition: all .05s; 
+	&:hover, &:focus {
+    border-bottom: 3px solid #efefef;
+    bottom: 2px;
+    transition: all .05s; 
+  }
+	&:active {
+  border-bottom: 1px solid #efefef;
+  bottom: 0px;
+  transition: all .05s; 
+	}
+
+	&.disabled {
+		background: $gray-light-2;
+		color: $gray;
+	}
+}
+
+.btn-small {
+	padding: $pad-half;
+}
+
+.btn-large {
+	padding: $pad-half;
+	text-transform: uppercase;
+	background: $gray;
+	font-size: 1.4rem;
+	font-weight: normal;
+}
+
+
+.text-btn {
+	font-style: italic;
+}

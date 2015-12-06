@@ -1,0 +1,102 @@
+* { 
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html, body, div, form, legend, label { 
+	margin: 0;
+	padding: 0;
+}
+
+body { 
+	background: #fff;
+	font: 100%/1.5 &quot;Whitney A&quot;, &quot;Whitney B&quot;, Helvetica, sans-serif;
+	-webkit-text-size-adjust: 100%;
+	color: #333;
+}
+
+fieldset { 
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+label { 
+	display: block;
+	padding-bottom: 0.5em;
+}
+
+button, input { 
+	font-family: inherit;
+	font-size: 100%;
+	margin: 0 1px 0;
+}
+
+input { 
+	width: 100%;
+	border: 1px solid #808080;
+	padding: 0.5em 0.65rem;
+}
+
+button { 
+	padding: 0.5em;
+	background: #333;
+	border: 1px solid #808080;
+	cursor: pointer;
+}
+
+.inline-form fieldset, .inline-form .inline-container { 
+	position: relative;
+}
+
+.inline-form button, .inline-form .btn { 
+	font-size: 0.875em;
+	padding: 0.65rem 1.3rem;
+	background: #333;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 1;
+	width: auto;
+}
+
+.inline-form button:hover, .inline-form button:focus, .inline-form .btn:hover, .inline-form .btn:focus { 
+	background: #808080;
+	color: #fff;
+}
+
+.btn { 
+	display: inline-block;
+	padding: 19px 0;
+	background-color: white;
+	width: 178px;
+	display: block;
+	border-radius: 5px;
+	margin: 35px auto;
+	color: #363945;
+	font-family: &quot;Whitney&quot;;
+	text-align: center;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 17px;
+	border: 1px solid #efefef;
+	position: relative;
+	bottom: 0px;
+	transition: all .05s;
+}
+
+.btn:hover, .btn:focus { 
+	border-bottom: 3px solid #efefef;
+	bottom: 2px;
+	transition: all .05s;
+}
+
+@font-face {
+	font-family: 'icons';
+	src: url(&quot;../fonts/icons.eot&quot;);
+	src: url(&quot;../fonts/icons.eot?#iefix&quot;) format(&quot;embedded-opentype&quot;), url(&quot;../fonts/icons.woff&quot;) format(&quot;woff&quot;), url(&quot;../fonts/icons.ttf&quot;) format(&quot;truetype&quot;), url(&quot;../fonts/icons.svg#icons&quot;) format(&quot;svg&quot;);
+	font-weight: normal;
+	font-style: normal;
+}
+
